@@ -1,3 +1,5 @@
+####optimizes notebook energy efficiency on Linux OS
+
 if on_ac_power; then
   echo 0 > /proc/sys/vm/laptop_mode
   echo 10 > /proc/sys/vm/dirty_ratio
